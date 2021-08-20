@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Help us make Pants better!
+about: Help us make Pants better
 title: ''
 labels: bug
 assignees: ''

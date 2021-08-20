@@ -1,6 +1,6 @@
 ---
 name: Feature request
-about: Suggest ways to improve Pants!
+about: Suggest ways to improve Pants
 title: ''
 labels: enhancement
 assignees: ''
