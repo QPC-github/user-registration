@@ -1,4 +1,4 @@
-name: User Registration
+name: "Support Pants - List My Company on pantsbuild.org"
 description: Add a company or organization to the public list of Pants Users
 title: "Please add XXXXXX to the public list of Pants Users"
 labels: [user-registration]
@@ -26,16 +26,6 @@ body:
       placeholder: e.g., https://www.acme.com
     validations:
       required: true
-  - type: input
-    id: email
-    attributes:
-      label: Contact email
-      description: |
-        How can we contact you if we have questions about this form? We won't use your email
-        address for any other purpose.
-      placeholder: e.g., wilecoyote@acme.com
-    validations:
-      required: true
   - type: textarea
     id: logo
     attributes:
@@ -52,3 +42,8 @@ body:
       value:
     validations:
       required: false
+  - type: markdown
+    attributes:
+      value: |
+        After creating the issue, please email verify@pantsbuild.org from your company
+        email address with a link to your newly-created issue. That's it, and thanks again!
